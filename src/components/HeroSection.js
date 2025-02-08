@@ -52,7 +52,7 @@ const HeroSection = () => {
       <div className="w-full lg:max-w-2xl flex flex-col gap-5 p-2 lg:p-10 justify-center">
         <h1 className="text-5xl lg:text-5xl text-green-600 font-bold fade-in">Unlock Your Potential in</h1>
         <h1 id="type" className="text-5xl lg:text-5xl text-green-600 font-bold mt-[-21px]">&zwnj;{text}</h1>
-        <p className="font-semibold text-md fade-in">At Easto, we help you master the skills needed to excel in software development. Our training programs build a strong foundation and keep you ahead in the ever-evolving tech landscape.</p>
+        <h2 className="font-semibold text-md fade-in">At Easto, we help you master the skills needed to excel in software development. Our training programs build a strong foundation and keep you ahead in the ever-evolving tech landscape.</h2>
         <div className="flex flex-wrap lg:flex-nowrap gap-4 fade-in">
           <button className="bg-green-600 hover:bg-green-700 font-bold lg:text-xl max-md:test-lg rounded-md text-white max-md:px-6 px-8 py-3 border" onClick={() => openModal()}>Entroll Now</button>
           <Link to="/courses">

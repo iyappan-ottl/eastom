@@ -12,8 +12,8 @@ const Home = () => {
   return (
     <>
       <SEO
-        title='Best Software Courses | Easto Academy'
-        description='Learn coding, MERN stack, Selenium, AWS, and more at Easto.'
+        title='Easto | Best Software Training for Software Development Skills'
+        description='Join Easto for top software training programs. Learn software development skills and stay ahead in the fast-growing tech world. Build your future today!'
       />
       <HeroSection />
       <StatsSection />
