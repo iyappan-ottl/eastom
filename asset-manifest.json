@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/eastom/static/css/main.f670a33f.css",
-    "main.js": "/eastom/static/js/main.ea8e1c08.js",
+    "main.js": "/eastom/static/js/main.ee4672e4.js",
     "static/js/488.a308e6f4.chunk.js": "/eastom/static/js/488.a308e6f4.chunk.js",
     "static/media/easto-sharan-kumar-mentor.jpg": "/eastom/static/media/easto-sharan-kumar-mentor.0cf306e8623ef661dcd9.jpg",
     "static/media/easto-website-testing-illu.gif": "/eastom/static/media/easto-website-testing-illu.a0b0e0aad9733efd12e9.gif",
@@ -58,11 +58,11 @@
     "static/media/easto-hcl.svg": "/eastom/static/media/easto-hcl.1d9fc87b510dd1160f44.svg",
     "index.html": "/eastom/index.html",
     "main.f670a33f.css.map": "/eastom/static/css/main.f670a33f.css.map",
-    "main.ea8e1c08.js.map": "/eastom/static/js/main.ea8e1c08.js.map",
+    "main.ee4672e4.js.map": "/eastom/static/js/main.ee4672e4.js.map",
     "488.a308e6f4.chunk.js.map": "/eastom/static/js/488.a308e6f4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f670a33f.css",
-    "static/js/main.ea8e1c08.js"
+    "static/js/main.ee4672e4.js"
   ]
 }
