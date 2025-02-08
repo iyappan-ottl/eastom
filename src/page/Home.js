@@ -1,0 +1,38 @@
+import React from "react";
+import HeroSection from "../components/HeroSection";
+import StatsSection from "../components/StatsSection";
+import FeaturesSection from "../components/FeaturesSection";
+import Testimonials from "../components/Testimonials";
+import FAQ from "../components/FAQ";
+import NewsletterSubscription from "../components/NewsletterSubscription";
+import Mentors from "../components/Mentors";
+import SEO from "../components/SEO";
+
+const Home = () => {
+  return (
+    <>
+      <SEO
+        title='Best Software Courses | Easto Academy'
+        description='Learn coding, MERN stack, Selenium, AWS, and more at Easto.'
+      />
+      <HeroSection />
+      <StatsSection />
+      <FeaturesSection />
+      <div className="flex flex-col gap-3 py-2 mt-2">
+        <h1 className="lg:text-5xl text-4xl font-bold px-6 text-center lg:px-32">Mentors</h1>
+        <div className="flex flex-col my-5">
+          <Mentors />
+        </div>
+      </div>
+      <div className="flex flex-col gap-5 py-2">
+        <h1 className="lg:text-5xl text-4xl font-bold px-6 lg:px-32">Testimonials</h1>
+        <p className="lg:text-2xl text-xl font-semibold px-6 lg:px-32">Read what our students have to say</p>
+        <Testimonials />
+      </div>
+      <FAQ />
+      <NewsletterSubscription />
+    </>
+  );
+};
+
+export default Home;
