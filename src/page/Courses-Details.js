@@ -51,7 +51,7 @@ const CourseDetailPage = () => {
       {
         mainImg: fsdImage,
         title: 'Full Stack Development Course',
-        price: '34,999',
+        price: '32,550',
         slug: 'full-stack-development',
         short_code: "fsd",
         description: 'Our Full Stack Development course is designed to equip you with the skills to build dynamic, scalable, and interactive web applications. Learn to master front-end and back-end technologies, databases, and deployment techniques to kickstart your career as a full-stack developer.',
@@ -219,7 +219,7 @@ const CourseDetailPage = () => {
       {
         mainImg: mobileImage,
         title: 'Mobile App Development Course',
-        price: '39,999',
+        price: '32,550',
         short_code: "mad",
         slug: 'mobile-app-development',
         description: 'Design, develop, and launch high-performance mobile apps that run smoothly on both Android and iOS using React Native—the technology behind apps like Instagram, Airbnb, and Discord',
@@ -566,7 +566,7 @@ const CourseDetailPage = () => {
       {
         mainImg: testingImage,
         title: 'Automation testing Course',
-        price: '34,999',
+        price: '32,550',
         short_code: "at",
         slug: 'automation-testing',
         description: 'Learn to automate testing and boost software quality! Get hands-on experience with Selenium, Appium, Cypress, JUnit, Jenkins, and more to build robust test automation frameworks for web, mobile, and API testing.',
@@ -958,7 +958,7 @@ const CourseDetailPage = () => {
               <div className="w-full lg:w-2/3 lg:text-5xl">
                 <p className="text-justify text-lg font-semibold my-7">{course?.description}</p>
                 <div className='flex flex-col items-center'>
-                  <button className="bg-green-600 hover:bg-green-700 font-bold lg:text-xl rounded-md text-white px-8 py-2 border" onClick={() => openModal({ course: course?.short_code })}>Entroll Now</button>
+                  <button className="bg-green-600 hover:bg-green-700 font-bold lg:text-xl rounded-md text-white px-8 py-2 border" onClick={() => openModal({ course: course?.short_code })}>Enroll Now</button>
                 </div>
                 <div className="flex flex-wrap lg:flex-nowrap items-center w-full my-10 bg-gradient-to-r from-emerald-500 to-lime-600 border-4 border-gray-300 rounded-2xl">
                   {course?.modules && course?.modules.map((module, index) => (
@@ -1120,7 +1120,7 @@ const CourseDetailPage = () => {
               <h1 className="text-center text-3xl font-bold pb-3 mt-2 text-gray-800">Course Fee</h1>
               <h4 className="text-center text-4xl font-bold pb-3 mt-2 text-gray-800">₹ {course?.price} <span className="text-lg text-gray-500">(Incl. GST)</span></h4>
               <div className='flex flex-col items-center'>
-                <button className="bg-green-600 hover:bg-green-700 font-bold lg:text-xl rounded-md text-white px-8 py-2 border" onClick={() => openModal({ course: course?.short_code })}>Entroll Now</button>
+                <button className="bg-green-600 hover:bg-green-700 font-bold lg:text-xl rounded-md text-white px-8 py-2 border" onClick={() => openModal({ course: course?.short_code })}>Enroll Now</button>
               </div>
             </div>
           </div>

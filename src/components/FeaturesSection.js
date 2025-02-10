@@ -679,7 +679,7 @@ function FeaturesSection() {
               <img src={onlineClassImg} alt="recorded" className="max-sm:-mb-16 md:-mb-12 -mb-24 lg:-mt-24 lg:-z-10 object-center text-5xl text-green-600" />
               <h4 className="text-2xl lg:text-3xl text-center text-green-800 uppercase font-bold">Online Classes</h4>
               <p className="text-md text-center font-semibold">Join live sessions from the comfort of your home. Interact with instructors in real-time and collaborate with peers through our online platform.</p>
-              <button className="bg-green-600 hover:bg-green-700 font-bold lg:text-xl rounded-md text-white px-8 py-2 border" onClick={() => openModal({ mode: 'online' })}>Entroll Now</button>
+              <button className="bg-green-600 hover:bg-green-700 font-bold lg:text-xl rounded-md text-white px-8 py-2 border" onClick={() => openModal({ mode: 'online' })}>Enroll Now</button>
             </div>
           </div>
           <div className="flex gap-5 border-2 border-green-800 py-5 px-2 rounded-lg">
@@ -687,7 +687,7 @@ function FeaturesSection() {
               <img src={liveClassImg} alt="recorded" className="max-sm:-mb-16 md:-mb-12 -mb-24 lg:-mt-24 lg:-z-10 object-center text-5xl text-green-600" />
               <h4 className="text-2xl lg:text-3xl text-center text-green-800 uppercase font-bold">Live Classes</h4>
               <p className="text-md text-center font-semibold">Experience real-time learning with our live classes. Engage directly with instructors and fellow students for immediate feedback and support.</p>
-              <button className="bg-green-600 hover:bg-green-700 font-bold lg:text-xl rounded-md text-white px-8 py-2 border" onClick={() => openModal({ mode: 'offline' })}>Entroll Now</button>
+              <button className="bg-green-600 hover:bg-green-700 font-bold lg:text-xl rounded-md text-white px-8 py-2 border" onClick={() => openModal({ mode: 'offline' })}>Enroll Now</button>
             </div>
           </div>
         </div>
@@ -749,7 +749,7 @@ function FeaturesSection() {
           </h1>
           <p className="text-lg font-semibold">Explore a diverse array of interactive learning courses tailored to help you achieve your goals.</p>
           <div className="flex gap-5">
-            <button className="bg-green-600 hover:bg-green-700 font-bold lg:text-xl rounded-md text-white px-8 py-2 border" onClick={openModal}>Entroll Now</button>
+            <button className="bg-green-600 hover:bg-green-700 font-bold lg:text-xl rounded-md text-white px-8 py-2 border" onClick={openModal}>Enroll Now</button>
             <Link to="/courses">
               <button className="bg-white rounded-md text-green-600 lg:text-xl font-bold border border-green-600 hover:bg-green-600 hover:text-white px-7 py-2">Explore Courses</button>
             </Link>

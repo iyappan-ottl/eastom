@@ -26,11 +26,72 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
   <title>Easto | Best Software Training for Software Development Skills</title>
+  <style>
+    .text {
+      color: white;
+    }
+
+    /* Loader container that fills the entire screen */
+    .loader-container {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.8);
+      /* Semi-transparent background */
+      z-index: 9999;
+      /* Ensures the loader is above everything else */
+    }
+
+    /* Loader spinner animation */
+    .loader {
+      border: 8px solid #f3f3f3;
+      /* Light grey background */
+      border-top: 8px solid #3fc04c;
+      /* Blue color for the spinner */
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 1s linear infinite;
+      /* Animation for spinning */
+    }
+
+    /* Keyframes for the spinner's spinning animation */
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    /* Content of the page */
+    .content {
+      text-align: center;
+      padding: 50px;
+      font-family: Arial, sans-serif;
+    }
+  </style>
 </head>
 
 <body>
   <!-- <noscript>You need to enable JavaScript to run this app.</noscript> -->
-  <div id="root"></div>
+  <div id="root">
+    <div class="loader-container">
+      <div class="loader"></div>
+    </div>
+    <div class="text">
+      <h1>Unlock Your Potential in Software Development</h1>
+      <h2>Testimonials</h2>
+      <h2>Courses</h2>
+    </div>
+  </div>
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.

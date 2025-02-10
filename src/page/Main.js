@@ -3,7 +3,7 @@ import React, { createContext, useContext, useState } from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 import FloatingButton from "../components/FloatingButton";
-import EnrollFormModal from "../components/EntrollForm";
+import EnrollFormModal from "../components/EnrollForm";
 
 const ModalContext = createContext();
 export const useModal = () => useContext(ModalContext);

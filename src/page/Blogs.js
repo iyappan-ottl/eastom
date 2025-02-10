@@ -13,7 +13,7 @@ const Blogs = () => {
         type='article' />
       <PageTitle title="Blogs" />
       <div className="justify-items-center">
-        <h4 className="text-7xl mb-10">Coming Soon...</h4>
+        <h4 className="text-7xl mb-4">Coming Soon...</h4>
         <img src={cooking} alt="cooking"></img>
       </div>
     </>

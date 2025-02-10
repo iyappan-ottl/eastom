@@ -13,8 +13,8 @@ const FAQ = () => {
 
   const faqs = [
     {
-      question: "How do I Entroll?",
-      answer: "You can sign up by clicking on the 'Entroll Now' button on the homepage."
+      question: "How do I enroll?",
+      answer: "You can sign up by clicking on the 'enroll Now' button on the homepage."
     },
     {
       question: "What courses are available?",

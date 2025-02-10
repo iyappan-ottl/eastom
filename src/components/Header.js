@@ -89,7 +89,7 @@ const Header = () => {
         </nav>
       </div>
       <div className="flex gap-5 items-center">
-        <button onClick={() => openModal()} className="bg-green-600 text-md hover:bg-green-700 font-bold rounded-md text-white px-6 py-2 border hidden lg:block">Entroll Now</button>
+        <button onClick={() => openModal()} className="bg-green-600 text-md hover:bg-green-700 font-bold rounded-md text-white px-6 py-2 border hidden lg:block">Enroll Now</button>
       </div>
     </div>
   );

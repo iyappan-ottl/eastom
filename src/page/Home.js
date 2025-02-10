@@ -19,13 +19,13 @@ const Home = () => {
       <StatsSection />
       <FeaturesSection />
       <div className="flex flex-col gap-3 py-2 mt-2">
-        <h1 className="lg:text-5xl text-4xl font-bold px-6 text-center lg:px-32">Mentors</h1>
+        <h2 className="lg:text-5xl text-4xl font-bold px-6 text-center lg:px-32">Mentors</h2>
         <div className="flex flex-col my-5">
           <Mentors />
         </div>
       </div>
       <div className="flex flex-col gap-5 py-2">
-        <h1 className="lg:text-5xl text-4xl font-bold px-6 lg:px-32">Testimonials</h1>
+        <h2 className="lg:text-5xl text-4xl font-bold px-6 lg:px-32">Testimonials</h2>
         <p className="lg:text-2xl text-xl font-semibold px-6 lg:px-32">Read what our students have to say</p>
         <Testimonials />
       </div>

@@ -1,6 +1,6 @@
 // App.jsx
 import React, { useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Main from "./page/Main";
 import Home from "./page/Home";
 import About from "./page/About";
@@ -11,6 +11,7 @@ import Blog from "./page/Blogs";
 import PrivacyPolicy from "./page/Privacy-Policy";
 import Terms from "./page/Terms-Of-Service";
 import Refund from "./page/Refund";
+import NotFound from "./page/404";
 import './index.css'
 // Centralized Route Configurations
 const routes = [
@@ -22,7 +23,7 @@ const routes = [
   { path: "/blogs", element: <Blog /> },
   { path: "/terms-of-service", element: <Terms /> },
   { path: "/privacy-policy", element: <PrivacyPolicy /> },
-  { path: "/refund-policy", element: <Refund /> }
+  { path: "/refund-policy", element: <Refund /> },
 ];
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -53,7 +54,7 @@ function App() {
             />
           ))}
           {/* Catch-All Route */}
-          <Route path="*" element={<Navigate to="/" />} />
+          <Route path="*" element={<Main>{<NotFound />}</Main>} />
         </Routes>
       </Router>
     </div>
