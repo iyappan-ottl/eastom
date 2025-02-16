@@ -10,7 +10,7 @@ export default function SEO({ title, description, name, type }) {
       <title>{title}</title>
       <meta name='description' content={description} />
       <meta name="keywords" content="software courses, coding bootcamp, programming academy" />
-      <link rel="canonical" href="https://www.eastoacademy.com" />
+      <link rel="canonical" href="https://www.easto.in" />
       { /* End standard metadata tags */}
       { /* Facebook tags */}
       <meta property="og:type" content={type} />

@@ -669,9 +669,9 @@ function FeaturesSection() {
               <img src={recordImg} alt="recorded" className="max-sm:-mb-16 md:-mb-12 -mb-24 lg:-mt-24 lg:-z-10 object-center text-5xl text-green-600" />
               <h4 className="text-2xl lg:text-3xl text-center text-green-800 uppercase font-bold">Recorded Classes</h4>
               <p className="text-md text-center font-semibold">Learn anytime, anywhere with our video courses. Our courses are designed to be interactive and engaging, with features like quizzes and coding challenges.</p>
-              <button className="flex text-lg items-center hover:underline hover:underline-offset-4">
+              <a href={process.env.REACT_APP_YOUTUBE_URL} target="_blank" className="flex text-lg items-center hover:underline hover:underline-offset-4">
                 Learn More
-              </button>
+              </a>
             </div>
           </div>
           <div className="flex gap-5 border-2 border-green-800 py-5 px-2 rounded-lg">

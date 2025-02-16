@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
   <url>
-    <loc>https://www.easto.com/</loc>
+    <loc>https://www.easto.in/</loc>
     <lastmod>2025-02-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -10,7 +10,7 @@
 
   <!-- Courses Page -->
   <url>
-    <loc>https://www.easto.com/courses</loc>
+    <loc>https://www.easto.in/courses</loc>
     <lastmod>2025-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -18,7 +18,7 @@
 
   <!-- Full Stack Development Course -->
   <url>
-    <loc>https://www.easto.com/courses/full-stack-development</loc>
+    <loc>https://www.easto.in/courses/full-stack-development</loc>
     <lastmod>2025-02-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -26,7 +26,7 @@
 
   <!-- DevOps Course -->
   <url>
-    <loc>https://www.easto.com/courses/devops</loc>
+    <loc>https://www.easto.in/courses/devops</loc>
     <lastmod>2025-02-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -34,7 +34,7 @@
 
   <!-- Contact Page -->
   <url>
-    <loc>https://www.easto.com/about-us</loc>
+    <loc>https://www.easto.in/about-us</loc>
     <lastmod>2025-02-08</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>

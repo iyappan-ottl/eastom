@@ -12,6 +12,7 @@ import PrivacyPolicy from "./page/Privacy-Policy";
 import Terms from "./page/Terms-Of-Service";
 import Refund from "./page/Refund";
 import NotFound from "./page/404";
+import BlogDetailPage from "./page/Blogs-Details";
 import './index.css'
 // Centralized Route Configurations
 const routes = [
@@ -19,6 +20,7 @@ const routes = [
   { path: "/about-us", element: <About /> },
   { path: "/courses", element: <Courses /> },
   { path: "/courses/:course_name", element: <CoursesDetails /> },
+  { path: "/blogs/:id", element: <BlogDetailPage /> },
   // { path: "/wall-of-frames", element: <WallOfFrames /> },
   { path: "/blogs", element: <Blog /> },
   { path: "/terms-of-service", element: <Terms /> },

@@ -10,4 +10,4 @@ Disallow: /cart/
 Disallow: /search/
 Allow: /
 
-Sitemap: https://www.eastoacademy.com/sitemap.xml
+Sitemap: https://www.easto.in/sitemap.xml

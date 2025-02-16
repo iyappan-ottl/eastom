@@ -43,26 +43,26 @@ const Footer = () => {
         <div className="w-full text-xm lg:text-md lg:w-1/4 items-center flex flex-col">
           <h3 className="font-bold">Follow Us On</h3>
           <ul className="flex flex-row lg:flex-col gap-4 mt-3">
-            <Link to="/" className="flex gap-2 items-center">
+            <a href={process.env.REACT_APP_FACEBOOK_URL} target="_blank" className="flex gap-2 items-center">
               <FaFacebook />
               <span className="hidden lg:block">Facebook</span>
-            </Link>
-            <Link to="/" className="flex gap-2 items-center">
+            </a>
+            <a href={process.env.REACT_APP_INSTAGRAM_URL} target="_blank" className="flex gap-2 items-center">
               <FaInstagram />
               <span className="hidden lg:block">Instagram</span>
-            </Link>
-            <Link to="/" className="flex gap-2 items-center">
+            </a>
+            <a href={process.env.REACT_APP_YOUTUBE_URL} target="_blank" className="flex gap-2 items-center">
               <FaYoutube />
               <span className="hidden lg:block">YouTube</span>
-            </Link>
+            </a>
             {/* <Link to="/" className="flex gap-2 items-center">
               <FaXTwitter />
               <span className="hidden lg:block">Twitter</span>
             </Link> */}
-            <Link to="/" className="flex gap-2 items-center">
+            <a href={process.env.REACT_APP_LINKEDIN_URL} target="_blank" className="flex gap-2 items-center">
               <FaLinkedin />
               <span className="hidden lg:block">LinkedIn</span>
-            </Link>
+            </a>
           </ul>
         </div>
       </div>
