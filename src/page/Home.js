@@ -12,8 +12,9 @@ const Home = () => {
   return (
     <>
       <SEO
-        title='Easto | Best Software Training for Software Development Skills'
-        description='Join Easto for top software training programs. Learn software development skills and stay ahead in the fast-growing tech world. Build your future today!'
+        title='Software Development, IT Skills, Coding skills - Easto Academy'
+        keywords='Software Development, IT Skills, Coding skills, Full stack web development, mobile app development, devops, AI & Data science, Automation testing, Nodejs, reactjs, react native, Software academy puducherry, pondicherry, pondy, academy near me, software academy in tamil nadu, MERN stack, MEAN stack, MongoDB, mysql'
+        description='Join Easto academy for top software training programs. Learn software development skills and stay ahead in the fast-growing tech world. Build your future today!'
       />
       <HeroSection />
       <StatsSection />

@@ -2,8 +2,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import { FaHouse, FaBookOpen, FaCircleInfo, FaBlog } from "react-icons/fa6";
 // import { AiFillSafetyCertificate } from "react-icons/ai";
 import { Link, useLocation } from 'react-router-dom';
-import eastoLogo from "../assets/logo/easto-logo-green-letter-bg-blur.png";
-import eastoIcon from "../assets/logo/easto-logo-cl-blur-bg.png";
+import eastoLogo from "../assets/logo/easto-logo-gr-txt-wh-bg-blr.png";
 import { useModal } from "../page/Main";
 const Header = () => {
   const { openModal } = useModal();
@@ -39,7 +38,7 @@ const Header = () => {
   return (
     <div className="lg:sticky z-30 top-0 flex flex-row items-center justify-between px-2 lg:px-16 py-1 lg:py-2 border-b border-gray-500 shadow lg:shadow-none max-md:bg-white lg:backdrop-blur-md">
       <Link to="/" className="flex items-center gap-1">
-        <img src={eastoIcon} alt="easto logo" className="lg:max-w-32 max-w-32 max-h-12" />
+        {/* <img src={eastoIcon} alt="easto logo" className="lg:max-w-32 max-w-32 max-h-12" /> */}
         <img src={eastoLogo} alt="easto logo" className="lg:max-w-32 max-w-32 max-h-12" />
       </Link>
       <div className="flex-wrap text-md lg:flex-nowrap gap-12 hidden lg:flex">
@@ -62,7 +61,7 @@ const Header = () => {
         >
           <div className="flex justify-between items-center p-5">
             <Link to="/" className="flex items-center gap-3">
-              <img src={eastoIcon} alt="easto logo" className="h-10 mb-4 lg:mb-0" />
+              {/* <img src={eastoIcon} alt="easto logo" className="h-10 mb-4 lg:mb-0" /> */}
               <img src={eastoLogo} alt="easto logo" className="h-10 mb-4 lg:mb-0" />
             </Link>
             <button onClick={toggleMobileMenu} className="text-2xl text-gray-700 -mt-4">

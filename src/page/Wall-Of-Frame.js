@@ -7,10 +7,9 @@ const WallOfFrames = () => {
   return (
     <>
       <SEO
-        title='Wall Of Frames'
-        description='Beginner friendly page for learning React Helmet.'
-        name='Company name.'
-        type='article' />
+        title='Wall of Fame | Easto Academy | Celebrating Achievements'
+        description='Explore Easto Academy’s Wall of Fame, celebrating top performers, outstanding students, and alumni success stories. Join us & make your mark in tech!'
+        keywords='Easto Academy, Wall of Fame, student achievements, top performers, success stories, alumni recognition, best students, coding champions, tech success, software training awards, excellence in learning, career growth, coding bootcamp alumni, developer success, featured students' />
       <PageTitle title="Wall Of Frame" />
       <div className="justify-items-center">
         <h4 className="text-7xl mb-10">Coming Soon...</h4>

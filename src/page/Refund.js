@@ -6,10 +6,9 @@ const RefundPolicy = () => {
   return (
     <>
       <SEO
-        title='Refund Policy'
-        description='Beginner friendly page for learning React Helmet.'
-        name='Company name.'
-        type='article' />
+        title='Refund Policy | Easto Academy | Hassle-Free Cancellations'
+        description='Review Easto Academy’s Refund Policy for details on cancellations, refunds, and course fee adjustments. We ensure a smooth and transparent process.'
+        keywords='Easto Academy, refund policy, course cancellation, money-back guarantee, fee refund, payment policy, enrollment cancellation, training refund, online course refund, refund terms, return policy, education fee refund, course withdrawal, hassle-free refunds, refund eligibility, student refund policy' />
       <PageTitle title='Refund Policy' />
       <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
         <h1 className="text-3xl font-bold text-gray-800 mb-6">Refund Policy for {process.env.REACT_APP_NAME}</h1>

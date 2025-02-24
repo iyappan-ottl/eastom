@@ -6,12 +6,11 @@ const PrivacyPolicy = () => {
   return (
     <>
       <SEO
-        title='Privacy Policy'
-        description='Beginner friendly page for learning React Helmet.'
-        name='Company name.'
-        type='article' />
+        title='Privacy Policy | Easto Academy | Your Data, Our Responsibility'
+        description='Read Easto Academy’s Privacy Policy to understand how we collect, use, and protect your data. Your privacy and security are our top priorities.'
+        keywords='Easto Academy, privacy policy, data protection, user privacy, data security, information collection, personal data usage, website privacy, online security, GDPR compliance, cookie policy, terms of service, user data protection, privacy rights, secure browsing, online privacy policy' />
       <PageTitle title="Privacy Policy" />
-      <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
+      <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg ">
         <h1 className="text-3xl font-bold text-gray-800 mb-6">Privacy Policy for {process.env.REACT_APP_NAME}</h1>
         <p className="text-sm text-gray-500 mb-4">Last Updated: {process.env.REACT_APP_LAST_MODIFIED_ON}</p>
 

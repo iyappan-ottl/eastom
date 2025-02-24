@@ -9,12 +9,11 @@ const AboutUs = () => {
   return (
     <>
       <SEO
-        title='About Easto'
-        description='Beginner friendly page for learning React Helmet.'
-        name='Company name.'
-        type='article' />
+        title='About Us | Easto Academy | Empowering Future Developers'
+        description='Easto Academy is committed to empowering developers with hands-on training in Full-Stack, AI, DevOps, Cloud & Automation Testing. Learn & grow with us!'
+        keywords='Easto Academy, About Easto, software training institute, coding bootcamp, learn programming, Full-Stack training, AI courses, DevOps training, cloud computing courses, automation testing, web development, career in tech, hands-on coding, software development training, best coding academy, professional IT training, tech education, online coding classes' />
       <PageTitle title="About Us" />
-      <div className="bg-gray-50 py-8">
+      <div className="bg-gray-50 py-8 bg-gradient-to-br from-indigo-50 via-white to-indigo-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
             {/* <h2 className="text-4xl font-extrabold text-gray-900 sm:text-5xl">

@@ -7,10 +7,9 @@ const TermsOfService = () => {
   return (
     <>
       <SEO
-        title='Terms of service'
-        description='Beginner friendly page for learning React Helmet.'
-        name='Company name.'
-        type='article' />
+        title='Terms of Service | Easto Academy | Rules & Guidelines'
+        description='Read Easto Academy’s Terms of Service to understand our policies on enrollment, payments, course access, and user responsibilities. Stay informed & compliant.'
+        keywords='Easto Academy, terms of service, terms and conditions, user agreement, course policies, refund terms, payment terms, enrollment guidelines, online learning policies, website terms, service agreement, student policies, digital learning terms, user rights, course access rules, legal terms, compliance policies' />
       <PageTitle title="Terms of Service" />
       <div className="max-w-4xl mx-auto p-6 bg-white shadow-lg rounded-lg">
         <h1 className="text-3xl font-bold text-gray-800 mb-6">Terms of Service for {process.env.REACT_APP_NAME}</h1>
